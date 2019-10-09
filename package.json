@@ -1,6 +1,12 @@
 {
   "name": "dd-msg",
-  "version": "0.0.6",
+  "version": "0.0.7",
+  "description": "一个很简单的钉钉机器人封装",
+  "keywords": [
+    "dingding",
+    "dd",
+    "robot"
+  ],
   "author": "jsjzh <kimimi_king@163.com>",
   "license": "MIT",
   "main": "lib/index.js",
@@ -8,6 +14,13 @@
   "scripts": {
     "build": "export NODE_ENV='production' && rollup -c ./rollup.config.js",
     "test": "rollup -c ./rollup.config.js && node lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsjzh/dd-msg.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jsjzh/dd-msg/issues"
   },
   "files": [
     "lib",
