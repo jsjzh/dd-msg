@@ -4,8 +4,7 @@
   "description": "一个很简单的钉钉机器人封装",
   "keywords": [
     "dingding",
-    "dd",
-    "robot"
+    "dingding"
   ],
   "author": "jsjzh <kimimi_king@163.com>",
   "license": "MIT",
