@@ -1,0 +1,35 @@
+{
+  "name": "dd-msg",
+  "version": "0.0.1",
+  "author": "jsjzh <kimimi_king@163.com>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "rollup -c ./rollup.config.js",
+    "test": "rollup -c ./rollup.config.js && node lib/index.js"
+  },
+  "files": [
+    "lib",
+    "index.d.ts"
+  ],
+  "dependencies": {
+    "request": "^2.88.0",
+    "tslib": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@types/request": "^2.48.3",
+    "builtin-modules": "^3.1.0",
+    "rollup-plugin-alias": "^2.0.1",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-filesize": "^6.2.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^5.1.2",
+    "rollup-plugin-typescript2": "^0.24.3",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
+  }
+}

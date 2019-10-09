@@ -1,0 +1,18 @@
+{
+  "extends": ["tslint-config-airbnb"],
+  "rules": {
+    "import-name": false,
+    "variable-name": false,
+    "align": [true, "elements", "members", "parameters", "statements"],
+    "object-shorthand-properties-first": false,
+    "brace-style": [false, "stroustrup"],
+    "function-name": false,
+    "ter-arrow-parens": false,
+    "ter-indent": false,
+    "semicolon": [true, "always", "ignore-bound-class-methods"],
+    // "defaultSeverity": "error",
+    // "jsRules": {},
+    // "linterOptions": {},
+    // "rulesDirectory": ""
+  }
+}
