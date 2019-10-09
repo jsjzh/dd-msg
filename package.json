@@ -1,6 +1,6 @@
 {
   "name": "dd-msg",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "一个很简单的钉钉机器人封装",
   "keywords": [
     "dingding",

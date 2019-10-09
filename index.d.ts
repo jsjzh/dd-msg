@@ -55,3 +55,5 @@ declare class DingMsg {
   markDown(params: D.IMarkDown): Promise<unknown>;
   text(params: D.IText): Promise<unknown>;
 }
+
+export = DingMsg;
