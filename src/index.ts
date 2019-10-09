@@ -10,13 +10,13 @@ function getFeedCardMsgBody({ links }: D.IFeedCard) {
   if (!links.length) inputError('需要传入 links');
   return {
     feedCard: {
-      msgtype: 'feedCard',
       links: links.map(item => ({
         title: item.title,
         messageURL: item.msgUrl,
         picURL: item.picUrl,
       })),
     },
+    msgtype: 'feedCard',
   };
 }
 

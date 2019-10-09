@@ -1,12 +1,12 @@
 {
   "name": "dd-msg",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "author": "jsjzh <kimimi_king@163.com>",
   "license": "MIT",
   "main": "lib/index.js",
-  "types": "index.d.ts",
+  "types": "./index.d.ts",
   "scripts": {
-    "build": "rollup -c ./rollup.config.js",
+    "build": "export NODE_ENV='production' && rollup -c ./rollup.config.js",
     "test": "rollup -c ./rollup.config.js && node lib/index.js"
   },
   "files": [

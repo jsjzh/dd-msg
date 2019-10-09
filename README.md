@@ -15,7 +15,7 @@ robot
       {
         title: '测试 feedCard',
         msgUrl: 'https://github.com/jsjzh',
-        picUrl: 'https://github.com/jsjzh',
+        picUrl: 'https://avatars2.githubusercontent.com/u/22976711',
       },
     ],
   })
@@ -49,7 +49,7 @@ robot
   .link({
     title: '测试 link',
     msgUrl: 'https://github.com/jsjzh',
-    picUrl: 'https://github.com/jsjzh',
+    picUrl: 'https://avatars2.githubusercontent.com/u/22976711',
     text: '测试文案',
   })
   .then(res => console.log(res));
